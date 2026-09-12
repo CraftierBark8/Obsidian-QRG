@@ -2,6 +2,19 @@ This is a quick reference guide for Obsidian.
 This version you can copy and paste directly into your Obsidian Vault for quick access.
 Just this note, no need for anything else in the repo.
 
+>[!info]+ Legal
+>![Creative Commons CC-BY-SA logo|100](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+>(c) 2026 by [CraftierBark8 on GitHub](https://github.com/CraftierBark8).
+>Licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
+>ver 1.0
+
+>[!failure]- Editing Outside Obsidian
+>Obsidian has it's own flavour of markdown with custom extensions and ways of doing things.
+>Editing this file in anything but Obsidian will almost definitely lead to the file breaking
+
+>[!warning]- Viewing outside Obsidian
+>Obsidian has it's own flavour of markdown that often breaks when viewed in anything except Obsidian.
+
 >[!warning]+ Viewing Mode
 >Some things in Obsidian only render while in 'Reading View'. To enter 'Reading View' select the 3 dots icon in the top right of this note and select 'Reading View'. If there's already a checkmark next to it, it's already active.
 # Table of Contents
@@ -45,6 +58,7 @@ Just this note, no need for anything else in the repo.
 | Bold & Italics | `***text***` |     ***text***      |
 | Strikethrough  |  `~~text~~`  |      ~~text~~       |
 |   Highlight    |  `==text==`  |      ==text==       |
+
 You can also nest formatting.
 `**This text is bold with *nested italics***.`
 **This text is bold with *nested italics***.
@@ -164,7 +178,7 @@ Probably the simplest type of link. Wrap the text you want to be clickable in br
 >For an up-to-date list visit [Obsidian Documentation](https://obsidian.md/help/file-formats)
 >For a potentially older but offline list in this note, see [[#Supported File Formats]]
 
-To have a link to an image displayed instead of being clickable, just put a `!` before the `[` in the link and make sure the link is to the image specifically. The text wrapped in `[]` should be used as a quick descriptor in case the image cannot load or is broken.
+To have a link to an embedded image instead of being clickable, just put a `!` before the `[` in the link and make sure the link is to the image specifically. The text wrapped in `[]` should be used as a quick descriptor in case the image cannot load or is broken.
 
 ```
 ![Snowy Mountaintop](https://yavuzceliker.github.io/sample-images/image-1021.jpg)
@@ -206,7 +220,7 @@ You can make links to a specific Heading within a note, just add a `#` after the
 ```
 [[Obsidian Quick Reference#Wikilinks (note links)]]
 
->[!warning]+ Number of `#`
+>[!info]+ Number of `#`
 >Only put one `#` no matter the number of `#` you put for that heading in the note.
 
 If you are referencing the note you are currently in, you can simplify the link by just including the heading portion.
@@ -234,8 +248,8 @@ Embeds allow you link to content somewhere else
 >[!note]- Embedding an External Image
 >If you're looking to embed an external image, that info can be found in [[#External Images]]
 
->[!note]+ How to Make Links to Embed
->For information on how to make links to embed, see [[#Links]].
+>[!note]+ How to Make Links
+>For information on how to make links that you can embed, see [[#Links]].
 >
 
 You can embed many things in Obsidian by simply adding a `!` in front of the item's link. For example, I want to embed my example note.[^1]
@@ -243,7 +257,7 @@ You can embed many things in Obsidian by simply adding a `!` in front of the ite
 ![[Example Note]]
 ```
 ### Supported File Formats
-For an up-to-date list of all supported embeds and attachments, go to [Obsidian's Documentation on Supported Files](https://obsidian.md/help/file-formats)
+For an up-to-date list of all supported embeds and attachments, go to [Obsidian's Documentation on Supported Files](https://obsidian.md/help/file-formats).
 >[!warning]- Audio and Video Codecs
 >Although Obsidian may support a file format, your device must have the necessary codecs and support installed to display or play them.
 
@@ -255,7 +269,7 @@ As of writing, Obsidian supports:
 - Audio: `.flac`, `.m4a`, `.mp3`, `.ogg`, `.wav`, `.webm`, `.3gp`
 - Video: `.mkv`, `.mov`, `.mp4`, `.ogv`, `.webm`
 - PDF: `.pdf`
->[!tip]- Adding More File Formats
+>[!info]- Adding More File Formats
 >The formats Obsidian supports can be expanded with [Community Plugins](https://obsidian.md/help/community-plugins)
 
 For an easier way of adding attachments, simply drag and drop them into the note and they will automatically be added to your vault. You can also copy and paste them.
@@ -421,7 +435,7 @@ Footnote definitions should be at the end of the document but you can put them a
 Comments don't show up in reading view, only editing mode. Making them useful for hidden text or information you only need while editing.
 
 Comments are very similar to code blocks except they use `%%` (2 percentage symbols) in a row instead.
->[!tip]- Display Example
+>[!info]- Display Example
 >The display example (the one outside the code block) can only be viewed in editing mode.
 ```
 %%
