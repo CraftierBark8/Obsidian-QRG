@@ -4,7 +4,7 @@ Just this note, no need for anything else in the repo.
 
 >[!info]+ Legal
 >![Creative Commons CC-BY-SA logo|100](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
->(c) 2026 by [CraftierBark8 on GitHub](https://github.com/CraftierBark8).
+>(c) 2026 by Ash Guerin, aka [CraftierBark8 on GitHub](https://github.com/CraftierBark8).
 >Licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
 >ver 1.0
 

@@ -1,5 +1,6 @@
 # Obsidian-QRG
 ![cc-by-sa.png](README%20Files/cc-by-sa.png)
+
 A quick reference guide for the markdown used in the [Obsidian notes app](https://obsidian.md/) that you can drag and drop directly into your Obsidian vault for quick and easy referencing.
 ***
 ## 💻 Usage
@@ -41,4 +42,4 @@ If there's an issue with the infomation, formatting or anything else, you can su
 ## ⚖️ License
 This project / repository is licensed with the [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/deed.en) unless specified otherwise.
 A copy is available in the [LICENSE file](LICENSE) included in this repo.
-You can credit me as CraftierBark8 on GitHub, with a link to my profile and this repository.
+You can credit me as Ash Guerin, aka CraftierBark8 on GitHub, with a link to my profile and this repository.
