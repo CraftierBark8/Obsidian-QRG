@@ -1,14 +1,14 @@
 # Obsidian-QRG
 ![cc-by-sa.png](README%20Files/cc-by-sa.png)
 
-A quick reference guide for the markdown used in the [Obsidian notes app](https://obsidian.md/) that you can drag and drop directly into your Obsidian vault for quick and easy referencing.
+A quick reference guide for the markdown flavour used in the [Obsidian notes app](https://obsidian.md/) that you can drag and drop directly into your Obsidian vault for quick and easy referencing.
 ***
 ## 💻 Usage
 Get the latest `Obsidian Quick Reference.md` file from the [Releases](https://github.com/CraftierBark8/Obsidian-QRG/releases) page.
 Copy and paste into your Obsidian vault and that's it!
 
->[!info] Obsidian Settings & Extensions
->Some Obsidian settings and extensions change how markdown is rendered and typed out. This guide is based off of a stock Obsidian install, things on your install may be different.
+> [!NOTE] 
+> Some Obsidian settings and extensions change how markdown is rendered and typed out. This guide is based off of a stock Obsidian install, formatting on your install may be different.
 ***
 ## ℹ️ Markdown Info Included
 Topics currently covered in the quick reference guide.
