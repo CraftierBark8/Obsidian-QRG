@@ -1,22 +1,25 @@
-This is a quick reference guide for Obsidian. 
-This version you can copy and paste directly into your Obsidian Vault for quick access.
-Just this note, no need for anything else in the repo.
 
->[!info]+ Legal
+>[!info]- Legal
 >![Creative Commons CC-BY-SA logo|100](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
 >(c) 2026 by Ash Guerin, aka [CraftierBark8 on GitHub](https://github.com/CraftierBark8).
 >Licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
->ver 1.0
+>See [releases](https://github.com/CraftierBark8/Obsidian-QRG/releases) for updates.
+>ver 1.0.1-beta
 
 >[!failure]- Editing Outside Obsidian
 >Obsidian has it's own flavour of markdown with custom extensions and ways of doing things.
->Editing this file in anything but Obsidian will almost definitely lead to the file breaking
+>**Editing this file in anything but Obsidian will almost definitely lead to the *formatting and rendering breaking.***
 
->[!warning]- Viewing outside Obsidian
->Obsidian has it's own flavour of markdown that often breaks when viewed in anything except Obsidian.
+>[!warning]- Viewing & Using Outside Obsidian
+>Obsidian has it's own flavour of markdown that often **breaks when viewed or used in anything except Obsidian. This guide is *only for Obsidian.***
 
+%%
 >[!warning]+ Viewing Mode
->Some things in Obsidian only render while in 'Reading View'. To enter 'Reading View' select the 3 dots icon in the top right of this note and select 'Reading View'. If there's already a checkmark next to it, it's already active.
+>If in Obsidian, ***you are viewing this outside of reading view.*** 
+>**Some things will not render correctly.**
+>If in Obsidian, **to enter reading view click on the open book icon in the top-right corner,** next to the 3 vertical dots.
+
+%%
 # Table of Contents
 
 -  [[#-Basic Markdown-|Basic Markdown]]
@@ -126,6 +129,7 @@ To insert a horizontal line, just put 3 asterisks on a new line by itself.
 ```
 ***
 ```
+(The line below is a horizontal line)
 ***
 ## Task Lists & Checkboxes
 Task lists and checkboxes start as an ordered or unordered list. Just add `[ ]` after the start of the line for an empty checkbox or a `[x]` for a completed checkbox
@@ -240,28 +244,31 @@ You can also make internal links to any file in your vault. It's the same as a W
 
 I will make a link to a PDF as an example.[^1]
 ```
-[[Obsidian Quick Reference Example PDF.pdf]]
+[[Example PDF.pdf]]
 ```
 ***
 ## Embeds & Attachments
-Embeds allow you link to content somewhere else
 >[!note]- Embedding an External Image
->If you're looking to embed an external image, that info can be found in [[#External Images]]
+>If you're looking to embed an external image, that info can be found in [[#External Images]].
 
->[!note]+ How to Make Links
+>[!note]- How to Make Links
 >For information on how to make links that you can embed, see [[#Links]].
->
 
-You can embed many things in Obsidian by simply adding a `!` in front of the item's link. For example, I want to embed my example note.[^1]
+Embeds allow you display content that is from somewhere else, directly into your note.
+
+You can embed many things in Obsidian by simply adding a `!` in front of the item's link. For example, I want to embed a note called 'Example Note'.[^1]
 ```
 ![[Example Note]]
 ```
 ### Supported File Formats
-For an up-to-date list of all supported embeds and attachments, go to [Obsidian's Documentation on Supported Files](https://obsidian.md/help/file-formats).
 >[!warning]- Audio and Video Codecs
 >Although Obsidian may support a file format, your device must have the necessary codecs and support installed to display or play them.
 
-As of writing, Obsidian supports:
+>[!info]- Adding More File Formats
+>The formats Obsidian supports can be expanded with [Community Plugins](https://obsidian.md/help/community-plugins)
+For an up-to-date list of all supported embeds and attachments, go to [Obsidian's Documentation on Supported Files](https://obsidian.md/help/file-formats)
+
+As of writing, Obsidian natively supports:
 - Markdown: `.md`
 - Bases: `.base`
 - JSON Canvas: `.canvas` ([Learn More](https://jsoncanvas.org/))
@@ -269,21 +276,19 @@ As of writing, Obsidian supports:
 - Audio: `.flac`, `.m4a`, `.mp3`, `.ogg`, `.wav`, `.webm`, `.3gp`
 - Video: `.mkv`, `.mov`, `.mp4`, `.ogv`, `.webm`
 - PDF: `.pdf`
->[!info]- Adding More File Formats
->The formats Obsidian supports can be expanded with [Community Plugins](https://obsidian.md/help/community-plugins)
 
 For an easier way of adding attachments, simply drag and drop them into the note and they will automatically be added to your vault. You can also copy and paste them.
 ### PDF Embeds
 PDFs have additional formatting options in Obsidian.
 
-A standard embed link looks like this.[^1]
+A standard PDF embed link looks like this.[^1]
 ```
 ![[Example.pdf]]
 ```
 
 To specify a page to display, you can add `#page=N` after the name of the PDF, where N is the page number.[^1]
 ```
-![[Example.pdf#page=1]]
+![[Example.pdf#page=2]]
 ```
 
 You can also specify the height of the PDF by adding `#height=N` to the link, where N is the height you want displayed in pixels.[^1]
@@ -341,7 +346,7 @@ To add content to a callout just put a new line with a `>`.
 >[!note]
 >This is example text!!
 
-By default, callouts use the callout type as the title but you can actually add your own. Just put a space after the `]` and put the title.
+By default, callouts use the callout type as the title but you can add your own. Just put a space after the `]` and put the title.
 
 ```
 >[!note] I'm an example
@@ -402,6 +407,9 @@ Listed below is every callout type.
 
 ***
 ## Code Blocks
+>[!info]- Text Example
+>The text example (the one in plain text) is unavailable as that uses the code block feature itself to prevent rendering.
+
 There are 2 types of code blocks. Regular code blocks and in-line code. Formatting does not get applied within code blocks or in-line code.
 For information on how to make in-line code, see [[#Text Formatting Basics]].
 
@@ -432,11 +440,12 @@ Footnote definitions should be at the end of the document but you can put them a
 [^2]: This is also an example
 ***
 ## Comments
+>[!info]- Display Example
+>The display example (the one that's not in plain text) can only be viewed in editing mode.
+
 Comments don't show up in reading view, only editing mode. Making them useful for hidden text or information you only need while editing.
 
 Comments are very similar to code blocks except they use `%%` (2 percentage symbols) in a row instead.
->[!info]- Display Example
->The display example (the one outside the code block) can only be viewed in editing mode.
 ```
 %%
 This is an example comment
@@ -445,10 +454,12 @@ This is an example comment
 %%
 This is an example comment
 %%
+
+
 ***
 ## QRG Footnotes
 Footnotes for this Quick Reference Guide.
 
-[^1]: Actually displaying this item would require an additional item in the vault. Since I want this to be a single note, a display example is unavailable, only the text version (in code block).
-[^2]: This is also an example
+[^1]: Displaying this item / example would require an additional item in the vault. Since this is to be a single note, a display example is unavailable, only the text version is (in code block).
+[^2]: This is also an example.
 [^3]: Footnote definitions get moved to the bottom of the note and properly ordered when in reading mode.
